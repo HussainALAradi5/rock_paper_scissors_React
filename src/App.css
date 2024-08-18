@@ -62,7 +62,7 @@ header h1:hover,
   font-family: cursive;
 }
 
-/* esponsiveness screebs */
+/* responsiveness screens */
 @media (max-width: 768px) {
   .app {
     padding: 1rem;
