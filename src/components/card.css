@@ -32,7 +32,12 @@
 .card:hover {
   transform: scale(1.05) rotate(90deg);
   background-color: rgba(255, 255, 255, 0.3);
-  /* box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); */
   box-shadow: 1rem 1rem 1rem black;
   transition: 1s;
+  border-color: darkblue;
+}
+
+.card.selected {
+  border-color: gold;
+  box-shadow: 0 0 1rem gold;
 }

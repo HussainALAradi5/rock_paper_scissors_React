@@ -6,6 +6,7 @@ import { useState } from 'react'
 function App() {
   const [result, setResult] = useState(null)
   const [computerChoice, setComputerChoice] = useState(null)
+  const [selectedCard, setSelectedCard] = useState(null)
 
   const choices = [
     { name: 'Rock', image: '/rock.jpg' },
@@ -17,6 +18,12 @@ function App() {
     const gameResult = Logic(choice.name)
     setResult(gameResult.result)
     setComputerChoice(gameResult.computerChoice)
+
+    // Find the computer's card
+    const computerCard = choices.find(
+      (c) => c.name === gameResult.computerChoice
+    )
+    setSelectedCard(computerCard.name)
   }
 
   return (
@@ -31,6 +38,7 @@ function App() {
             name={choice.name}
             image={choice.image}
             onClick={() => handleUserChoice(choice)}
+            selected={selectedCard === choice.name}
           />
         ))}
         {result && (
