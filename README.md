@@ -49,8 +49,8 @@
 ### **_Future Updates_**
 
 - [x] improve UI
-- [ ] add more cards
-- [ ] improve difficulties
+- [ ] add more animation to the cards
+- [ ] implement responsive screens
 
 ---
 
