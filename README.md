@@ -12,7 +12,7 @@
 
 #### this project is small and nice game to experience also it will deliver nice UX & UI and it compatible with all different ages.
 
-#### [game](rock-paper-scissors-ha.surge.sh/)
+#### [game](https://rock-paper-scissors-ha.surge.sh/)
 
 ---
 
