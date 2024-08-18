@@ -48,7 +48,7 @@
 
 ### **_Future Updates_**
 
-- [x] improve UI
+- [ ] improve UI
 - [ ] add more animation to the cards
 - [ ] implement responsive screens
 
