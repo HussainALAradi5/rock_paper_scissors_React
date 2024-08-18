@@ -1,0 +1,60 @@
+* {
+  font-size: 1rem;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7rem;
+  justify-content: center;
+  padding: 5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.result {
+  margin-top: 1.5rem;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 1rem 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+.app p {
+  font-size: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+header h1:hover,
+.app p:hover {
+  color: wheat;
+  transition: 1s;
+  font-size: 3rem;
+}
+.app p:hover {
+  font-size: 2rem;
+  font-family: cursive;
+}
