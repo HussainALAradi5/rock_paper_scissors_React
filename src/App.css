@@ -18,9 +18,9 @@ body {
 .app {
   display: flex;
   flex-wrap: wrap;
-  gap: 7rem;
+  gap: 5rem;
   justify-content: center;
-  padding: 5rem;
+  padding: 2rem;
   background: rgba(255, 255, 255, 0.1);
   border-radius: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
@@ -34,8 +34,9 @@ body {
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 .app p {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .header {
@@ -44,17 +45,44 @@ body {
 }
 
 .header h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fff;
   margin-bottom: 0.5rem;
 }
+
 header h1:hover,
 .app p:hover {
   color: wheat;
   transition: 1s;
-  font-size: 3rem;
-}
-.app p:hover {
   font-size: 2rem;
+}
+
+.app p:hover {
+  font-size: 1.5rem;
   font-family: cursive;
+}
+
+/* esponsiveness screebs */
+@media (max-width: 768px) {
+  .app {
+    padding: 1rem;
+  }
+
+  .header h1 {
+    font-size: 1.25rem;
+  }
+
+  .app p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header h1 {
+    font-size: 1rem;
+  }
+
+  .app p {
+    font-size: 1rem;
+  }
 }
